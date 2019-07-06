@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #74b9ff;
+    background: #74b9ff url("https://i.pinimg.com/originals/7d/20/49/7d2049ce75e076b193529b3cc3f95461.png") center/cover no-repeat;
     color: white;
 }
 
