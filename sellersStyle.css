@@ -52,7 +52,7 @@ header img {
 }
 
 header {
-    background: black;
+    background: #111111;
     border-radius: 15px;
     position: fixed;
     display: flex;
@@ -160,6 +160,38 @@ header h4 {
     font-weight: 500;
 }
 
+/* -------------------- MORE INFO - FAQS------------------ */
+
+.moreInfo {
+    padding: 30px;
+    text-align: center;
+}
+
+.moreInfo div {
+    min-width: 300px;
+    max-width: 600px;
+    text-align: left;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+
+.moreInfo div p{
+    font-size: 0.9em;
+}
+
+.moreInfo div h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    color: #cccccc;
+}
+
+.moreInfo div p {
+    margin: -15px 0px 0px 0px;
+    text-align: left;
+}
+
+
 /* -------------------- FAQ'S ------------------ */
 
 .FAQs {
@@ -200,9 +232,9 @@ header h4 {
     top: -24px;
 }
 
-.FAQs m {
+.moreInfo m {
     color: #a5b1c2;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 /* -------------------- MODAL ------------------ */
@@ -271,6 +303,7 @@ header h4 {
     pointer-events: all;
 }
 
+/* -------------------- FOOTER ------------------ */
 
 footer {
     font-family: 'Poppins', sans-serif;
@@ -283,6 +316,12 @@ footer {
 footer ul {
     margin: -2px 0px 0px -20px;
     text-align: left;
+}
+
+footer h2 {
+    font-size: 3em;
+    color: #1D1D1D;
+    margin: -30px 0px 0px 20px;
 }
 
 footer ul li {
@@ -342,14 +381,14 @@ footer p {
 
 .contact h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
 
 .sellers h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
@@ -369,7 +408,7 @@ footer p {
 
 .legal h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
@@ -382,7 +421,7 @@ footer p {
 
 .more h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
@@ -405,7 +444,7 @@ figure img{
     margin: 1em auto 0;
     width: 70%;
     border-radius: 13px;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 @media screen and (min-width: 720px) {
@@ -463,6 +502,16 @@ figure img{
         border: 3px solid #41F89D;
         color: white;
         border-radius: 50px;
+    }
+
+    /* -------------------- MORE INFO - FAQS------------------ */
+
+    .moreInfo div {
+        width: 40%;
+        min-width: 300px;
+        max-width: 600px;
+        padding: 0px 30px 0px 30px;
+        height: 150px;
     }
 
     /* -------------------- HEADERVIEW ------------------ */

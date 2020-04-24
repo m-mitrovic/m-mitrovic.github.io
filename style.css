@@ -4,11 +4,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #1d1d1d center/cover no-repeat;
     color: white;
+    overflow-x: hidden;
 }
 
 /* -------------------- HEADER ------------------ */
 .container {
-    max-width: 800px;
+    max-width: 893px;
     margin: 0 auto;
     padding: 1em 1em;
 }
@@ -46,7 +47,7 @@ header img {
 }
 
 header {
-    background: black;
+    background: #111111;
     border-radius: 15px;
     position: fixed;
     display: flex;
@@ -244,14 +245,14 @@ footer p {
 
 .contact h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
 
 .sellers h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
@@ -271,7 +272,7 @@ footer p {
 
 .legal h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
@@ -284,7 +285,7 @@ footer p {
 
 .more h2 {
     font-size: 1.6em;
-    color: #727272;
+    color: #bdc3c7;
     font-weight: 600;
     text-align: left;
 }
