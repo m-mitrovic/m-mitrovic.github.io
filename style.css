@@ -213,6 +213,15 @@ footer p {
     color: #bdc3c7;
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+    text-align: left;
+    padding: 30px 26% 30px 26%;
+    margin: 0px;
+    display: inline-block
+}
+
 /* -------------------- SOCIAL ------------------ */
 
 .social {
@@ -327,8 +336,8 @@ figure img{
     header h4 {
         text-align: left;
         font-size: 1.6em;
-        font-weight: 700;
-        margin: 0px 130px 0px 0px;
+        font-weight: 600;
+        margin: 0px 160px 0px 0px;
         opacity: 1;
     }
 
@@ -394,7 +403,15 @@ figure img{
     .social {
         max-width: 300px;
         float: right;
-        margin: -75px 0px 0px 0px;
+        margin: 55px 0px 0px 0px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+        text-align: left;
+        padding: 30px;
+        margin: 0px 0px 0px -400px;
     }
 
     .figure img {
