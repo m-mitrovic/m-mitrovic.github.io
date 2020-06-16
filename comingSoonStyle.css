@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1d1d1d center/cover no-repeat;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* -------------------- HEADER ------------------ */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+header img {
+    width: 90px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px 0px -30px 0px;
+}
+
+header {
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header h4 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    width: 0px;
+    opacity: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.0em;
+    font-weight: 700;
+    line-height: 1.0em;
+}
+
+.hero a {
+    background: #41F89D;
+    padding: 15px 70px 15px 70px;
+    margin: -100px;
+    border-radius: 50px;
+    color: #1D1D1D;
+    text-decoration-line: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 3em;
+    color: #1D1D1D;
+    margin: -30px 0px 0px 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img{
+    margin: 1em auto 0;
+    width: 70%;
+    border-radius: 13px;
+    max-width: 300px;
+}
+
+@media screen and (min-width: 720px) {
+    /* Desktop */
+    header {
+        text-align: left;
+    }
+    
+    header img{
+        margin: 50px 0px -100px 15px;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 5em;
+        line-height: 90px;
+    }
+
+    .hero p:before {
+        margin: 1em 0;
+    }
+
+    .hero p {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0 0 3em 0;
+    }
+    
+    .hero a {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .figure img {
+        width: 400px;
+        margin: 0;
+        max-width: 300px;
+    }
+    
+    .figure {
+        max-width: 100px;
+        margin: 0px -100px -400px -100px;
+    }
+}
