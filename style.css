@@ -9,7 +9,7 @@ body {
 
 /* -------------------- HEADER ------------------ */
 .container {
-    max-width: 893px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 1em 1em;
 }
@@ -38,24 +38,17 @@ nav ul li a{
 }
 
 header img {
-    width: 50px;
+    width: 90px;
     border-radius: 15px;
-}
-
-.highlight {
-    color: #41F89D;
+    display: inline-block;
+    margin: 10px 0px -30px 0px;
 }
 
 header {
-    background: #111111;
     border-radius: 15px;
-    position: fixed;
-    display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-    width: 88vw;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
 
 header h4 {
@@ -99,10 +92,12 @@ main {
 }
 
 .hero a {
-    background: #41F89D; 
-    padding: 0.7em 2.5em;
+    background: center url('https://66.media.tumblr.com/8d163120131bd4b72ed3f8706033345e/tumblr_psgw7eeiOC1uzwgsuo1_400.gif') no-repeat;
+    background-size: cover;
+    padding: 15px 70px 15px 70px;
+    margin: -100px;
     border-radius: 50px;
-    color: #1d1d1d;
+    color: white;
     text-decoration-line: none;
     font-size: 1.2em;
     font-weight: 500;
@@ -323,14 +318,11 @@ figure img{
 @media screen and (min-width: 720px) {
     /* Desktop */
     header {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: wrap;
-        align-items: center;
-        width: 500px;
-        right: 10px;
-        left: auto;
-        transform: none;
+        text-align: left;
+    }
+    
+    header img{
+        margin: 50px 0px -100px 15px;
     }
 
     header h4 {
@@ -391,9 +383,9 @@ figure img{
         padding: 0;
         margin: 0 0 3em 0;
     }
-
+    
     .hero a {
-        background: #41F89D;
+        margin: 0px;
     }
 
     .beta-desc {
