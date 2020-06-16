@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #1d1d1d center/cover no-repeat;
-    color: white;
+    background: #fff center/cover no-repeat;
+    color: black;
 }
 
 .container {
@@ -14,9 +14,7 @@ body {
 
 /* -------------------- HEADER ------------------ */
 .container {
-    max-width: 1005px;
-    margin: 7px 0px 0px 0px;
-    padding: 1em 1em;
+    max-width: 250px;
 }
 
 nav {
@@ -35,7 +33,7 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     font-size: 1.25em;
     color: white;
     font-weight: 200;
@@ -43,7 +41,7 @@ nav ul li a{
 }
 
 header img {
-    width: 50px;
+    width: 60px;
     border-radius: 15px;
 }
 
@@ -52,24 +50,25 @@ header img {
 }
 
 header {
-    background: #111111;
-    border-radius: 15px;
+    background: white;
+    border-radius: 0px 0px 15px 15px;
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 88vw;
+    width: 92%;
     left: 50%;
     transform: translate(-50%, 0);
+    z-index: 10;
+    height: 55px;
+    top: 0;
 }
 
 header h4 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 600;
-    margin: 0px 0px 0px 0px;
-    width: 0px;
-    opacity: 0;
+    margin: 0px 0px 0px 15px;
+    color: lightgray;
 }
 
 
@@ -80,25 +79,26 @@ header h4 {
     padding: 30px;
 }
 
-.headerView h1{
+.headerView h1 {
     font-size: 3em;
     color: #1d1d1d;
+    margin: -20px -20px 70px 0px;
 }
 
 .headerView a {
-    background: #1d1d1d; 
-    padding: 0.7em 2.5em;
-    border-radius: 50px;
-    color: white;
+    background: #6CFFB6; 
+    padding: 15px 60px;
+    border-radius: 10px;
+    color: #1d1d1d;
     text-decoration-line: none;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 600;
+    margin: -10px;
 }
 
 .fullHeader {
     text-align: center;
-    background: #41F89D;
-    margin: -7px;
+    margin: 140px 0px 0px 0px;
 }
 
 .fullHeader img {
@@ -135,7 +135,7 @@ header h4 {
 
 .earlyAccess {
     padding: 30px;
-    background-color: #41F89D;
+    background-color: #6CFFB6;
     color: #1d1d1d;
     text-align: center;
     border-radius: 10px;
@@ -152,12 +152,12 @@ header h4 {
 
 .earlyAccess a {
     background: #1d1d1d; 
-    padding: 0.7em 2.5em;
-    border-radius: 50px;
+    padding: 15px 60px;
+    border-radius: 10px;
     color: white;
     text-decoration-line: none;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* -------------------- MORE INFO - FAQS------------------ */
@@ -183,7 +183,7 @@ header h4 {
     font-size: 1.3em;
     font-weight: 600;
     display: inline-block;
-    color: #cccccc;
+    color: #57606f;
 }
 
 .moreInfo div p {
@@ -461,51 +461,15 @@ figure img{
     /* Desktop */
 
     /* -------------------- HEADER ------------------ */
+    .container {
+        max-width: 250px;
+        left: 12%;
+    }
     header {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: wrap;
-        align-items: center;
         width: 500px;
-        right: 10px;
         left: auto;
+        top: 0;
         transform: none;
-    }
-
-     header h4 {
-        text-align: left;
-        font-size: 1.6em;
-        font-weight: 600;
-        margin: 0px 160px 0px 0px;
-        opacity: 1;
-    }
-
-    header h4 l {
-        font-weight: 400;
-        font-size: 0.8em;
-        align-items: center;
-    }
-
-    nav { 
-        margin: 0;
-        width: 270px
-    }
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-
-    nav ul li {
-        list-style: none;
-        padding: 0.5em 2em;
-    }
-
-    nav ul li a {
-        font-size: 1.37em;
-        color: white;
-        font-weight: none;
     }
 
     .highlight {
@@ -527,11 +491,13 @@ figure img{
     /* -------------------- HEADERVIEW ------------------ */
     .fullHeader {
         text-align: center;
+        margin: 200px 0px 0px 20px;
+        padding: 
     }
 
     .headerView {
-        text-align: right;
-        max-width: 500px;
+        text-align: left;
+        max-width: 550px;
         width: 50%;
         display: inline-block;
         padding: 30px 0px 30px 30px;
@@ -542,6 +508,7 @@ figure img{
 
     .headerView h1{
         font-size: 3em;
+        margin: -20px -20px 40px 0px;
     }
 
     .fullHeader img {
