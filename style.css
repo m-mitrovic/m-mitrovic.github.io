@@ -309,10 +309,10 @@ figure {
 }
 
 figure img{
-    margin: 1em auto 0;
-    width: 70%;
+    margin: 10px 0px -35px 0px;
+    width: 100%;
     border-radius: 13px;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 @media screen and (min-width: 720px) {
@@ -331,28 +331,6 @@ figure img{
         font-weight: 600;
         margin: 0px 160px 0px 0px;
         opacity: 1;
-    }
-
-    nav { 
-        margin: 0;
-        width: 270px
-    }
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-
-    nav ul li {
-        list-style: none;
-        padding: 0.5em 2em;
-    }
-
-    nav ul li a {
-        font-size: 1.37em;
-        color: white;
-        font-weight: none;
     }
 
     .highlight {
@@ -406,9 +384,9 @@ figure img{
         margin: 0px 0px 0px -400px;
     }
 
-    .figure img {
-        width: 300px;
-        margin: 0;
+    figure img {
+        width: 25vw;
+        margin: 10px 0px -35px 0px;
         max-width: 300px;
     }
 }
