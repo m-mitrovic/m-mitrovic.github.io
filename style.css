@@ -384,7 +384,7 @@ figure img{
     }
 
     figure img {
-        width: 100%;
+        width: 18em;
         margin: 10px 0px -35px 0px;
         max-width: 600px;
     }
