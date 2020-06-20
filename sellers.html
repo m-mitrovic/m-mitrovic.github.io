@@ -2,14 +2,12 @@
 <html lang="en">
 
     <head>
-        
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167624953-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-167624953-1');
         </script>
         
@@ -24,7 +22,7 @@
     <body>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <header class="container">
-            <a href="index.html">
+            <a href="index.html" onClick="ga('send', 'event', 'navigation-button', 'to-home');">
                 <img src="images/LogoGT.png"></a>
             <h4>sosh sellers</h4>
         </header>
@@ -33,7 +31,7 @@
             <div class="headerHolder">
                 <div class="headerView">
                     <h1>Get people talking about your &nbsp;🛍️&nbsp;</h1>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSecc69LpHbwMOeAkWjlyKMOWru-6LjUBY95mzhyMB0LaTjFzg/viewform?usp=sf_link" target="_blank">Sell Now for Free</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSecc69LpHbwMOeAkWjlyKMOWru-6LjUBY95mzhyMB0LaTjFzg/viewform?usp=sf_link" target="_blank" onClick="ga('send', 'event', 'sell-now', 'main');">Sell Now for Free</a>
                 </div>
                 <img src="images/sellers.jpg" alt="shop with friends"> 
                 <br><br>
@@ -42,7 +40,6 @@
 
         <div class="features">
             <br>
-
             <div>
                 <img src="images/spread.png" alt="shop with friends">
                 <h2>Viral Potential</h2>
@@ -64,14 +61,13 @@
             <h1>The early advantage 🤫</h1>
             <p>In the early stages of Sosh, get the unfair early advantage of running your product entirely free<sup>1</sup>. Build your reputation on Sosh, and be the first to run effective campaigns.</p>
             <br><br>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSecc69LpHbwMOeAkWjlyKMOWru-6LjUBY95mzhyMB0LaTjFzg/viewform?usp=sf_link" target="_blank">Sell Now for Free</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSecc69LpHbwMOeAkWjlyKMOWru-6LjUBY95mzhyMB0LaTjFzg/viewform?usp=sf_link" target="_blank" onClick="ga('send', 'event', 'sell-now', 'unfair-advantage');">Sell Now for Free</a>
             <br><br>
         </div>
 
         
         <div class="moreInfo">
-        <h1>Frequently Asked Questions</h1>
-            
+        <h1>Frequently Asked Questions</h1> 
             <div>
                 <h2>What products should I sell?</h2>
                 <p>Sosh focuses on fashion products. This includes clothing, shoes, sunglasses, jewlery, and much more. Please note that Sosh is currently only available in Canada.</p>
@@ -179,7 +175,7 @@
                 <div class="contact">
                     <h2>contact</h2>
                     <ul>
-                        <li><a href="coming-soon.html">press kit</a></li>
+                        <li><a href="coming-soon.html" onClick="ga('send', 'event', 'navigation-button', 'press-kit');">press kit</a></li>
                         <li><a href="mailto:hello@sosh.app?">hello@sosh.app</a></li>
                     </ul>
                 </div>
@@ -196,15 +192,15 @@
                 <div class="legal">
                     <h2>legal</h2>
                     <ul>
-                        <li><a href="coming-soon.html">terms</a></li>
-                        <li><a href="coming-soon.html">privacy policy</a></li>
+                         <li><a href="coming-soon.html" onClick="ga('send', 'event', 'navigation-button', 'terms');">terms</a></li>
+                        <li><a href="coming-soon.html" onClick="ga('send', 'event', 'navigation-button', 'privacy');">privacy policy</a></li>
                     </ul>
                 </div>
 
                 <div class="more">
                     <h2>more</h2>
                     <ul>
-                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.html" onClick="ga('send', 'event', 'navigation-button', 'to-home');">home</a></li>
                         <li><a href="mailto:support@sosh.app?">support@sosh.app</a></li>
                     </ul>
                 </div>
