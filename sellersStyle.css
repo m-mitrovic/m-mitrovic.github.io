@@ -82,7 +82,7 @@ header h4 {
 .headerView h1 {
     font-size: 3em;
     color: #1d1d1d;
-    margin: -20px -20px 70px 0px;
+    margin: -20px 0px 70px 0px;
 }
 
 .headerView a {
@@ -187,7 +187,7 @@ header h4 {
     font-size: 1.3em;
     font-weight: 600;
     display: inline-block;
-    color: #57606f;
+    color: #bdc3c7;
 }
 
 .moreInfo div p {
@@ -195,8 +195,12 @@ header h4 {
     text-align: left;
 }
 
+.moreInfo m {
+    color: #bdc3c7;
+    font-size: 0.8em;
+}
 
-/* -------------------- FAQ'S ------------------ */
+/* -------------------- NOT ACTIVE CURRENTLY ------------------ */
 
 .FAQs {
     padding: 30px;
@@ -234,11 +238,6 @@ header h4 {
     font-size: 1.6em;
     position: relative;
     top: -24px;
-}
-
-.moreInfo m {
-    color: #bdc3c7;
-    font-size: 0.8em;
 }
 
 /* -------------------- MODAL ------------------ */
