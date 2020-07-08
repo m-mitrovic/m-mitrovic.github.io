@@ -94,6 +94,7 @@ main {
 .hero a {
     background: center url('https://66.media.tumblr.com/8d163120131bd4b72ed3f8706033345e/tumblr_psgw7eeiOC1uzwgsuo1_400.gif') no-repeat;
     background-size: cover;
+    background-color: #343434; 
     padding: 15px 70px 15px 70px;
     margin: -100px;
     border-radius: 50px;
