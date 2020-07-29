@@ -5,44 +5,19 @@ body {
     background: #fff center/cover no-repeat;
     color: black;
 }
-
 .container {
     max-width: 1005px;
     margin: 0 auto;
-    padding: 1em 1em;
+    padding: 0px 10px 30px 10px;
 }
 
 /* -------------------- HEADER ------------------ */
-.container {
-    max-width: 250px;
-}
-
-nav {
-    margin: 23m auto 0;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0px 20px 0px 0px;
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a {
-    font-size: 1.25em;
-    color: white;
-    font-weight: 200;
-    text-decoration: none;
-}
 
 header img {
-    width: 60px;
+    width: 90px;
     border-radius: 15px;
+    display: inline-block;
+    margin: 10px 0px -30px 0px;
 }
 
 .highlight {
@@ -50,42 +25,35 @@ header img {
 }
 
 header {
-    background: rgba(255,255,255, 0.99);
     border-radius: 0px 0px 15px 15px;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    width: 92%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 10;
     height: 55px;
-    top: 0;
+    width: 200px;
 }
 
 header h4 {
     text-align: left;
-    font-size: 1.6em;
-    font-weight: 600;
-    margin: 0px 0px 0px 15px;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 0px 0px 0px 1px;
     color: lightgray;
+    display: inline;
 }
-
 
 /* -------------------- HEADERVIEW ------------------ */
 
 .headerView {
     text-align: center;
     padding: 30px;
+    margin: -60px 0px 0px 0px;
 }
 
 .headerView h1 {
     font-size: 3em;
     color: #1d1d1d;
-    margin: -20px 0px 70px 0px;
+    margin: 50px 0px 70px 0px;
 }
 
-.headerView a {
+.sell-button {
     background: #6CFFB6; 
     padding: 15px 60px;
     border-radius: 10px;
@@ -98,13 +66,13 @@ header h4 {
 
 .fullHeader {
     text-align: center;
-    margin: 140px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
 }
 
-.fullHeader img {
-    width: 60%;
-    max-width: 300px;
-    padding: 30px
+.preview {
+    width: 90%;
+    max-width: 500px;
+    padding: 10px
 }
 
 /* -------------------- FEATURES ------------------ */
@@ -467,16 +435,14 @@ figure img{
 
     /* -------------------- HEADER ------------------ */
     .container {
-        max-width: 250px;
-        left: 12%;
+        text-align: left;
+        margin: 10px 0px 90px 0px;
     }
     header {
-        width: 500px;
-        left: auto;
-        top: 0;
-        transform: none;
+        max-width: 1100px;
+        display: inline-block;
+        padding: 30px 0px 30px 30px;
     }
-
     .highlight {
         border: 3px solid #41F89D;
         color: white;
@@ -496,7 +462,7 @@ figure img{
     /* -------------------- HEADERVIEW ------------------ */
     .fullHeader {
         text-align: center;
-        margin: 200px 0px 0px 20px;
+        margin: 100px 0px 0px 20px;
     }
 
     .headerView {
@@ -515,9 +481,9 @@ figure img{
         margin: -20px -20px 40px 0px;
     }
 
-    .fullHeader img {
+    .preview {
         width: 40%;
-        max-width: 400px;
+        max-width: 600px;
         padding: 0px;
         margin: -20px 0px 0px 0px;
     }

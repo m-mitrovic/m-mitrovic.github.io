@@ -80,6 +80,34 @@ figure img{
     max-width: 300px;
 }
 
+/* MAIL CHIMP */
+#mc_embed_signup input {
+    background: black;
+    color: black;
+}
+
+#mc-embedded-subscribe-form {
+    background: #1D1D1D;
+}
+
+#mc-embedded-subscribe-form input.button {
+    background: #41F89D;
+    color: #1D1D1D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+    margin: 0px 0px 0px -50px;
+}
+
+#mc-embedded-subscribe-form input.email {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 135px;
+    margin: 100px;
+}
+
+
 @media screen and (min-width: 720px) {
     /* Desktop */
     header {
