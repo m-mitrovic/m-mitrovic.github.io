@@ -47,6 +47,10 @@ header h4 {
     font-weight: 600;
 }
 
+a {
+    color: dodgerblue;
+}
+
 .main h2 {
     font-weight: 600;
     margin: 50px 0px -10px 0px;
